@@ -19,7 +19,8 @@ jobs:
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
           script: |
             # Switch to root user (correct way)
-            sudo su
+            sudo -i <<EOF
+
             
             # Update and upgrade system packages
             yum update && yum upgrade -y
