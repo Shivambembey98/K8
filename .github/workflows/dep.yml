@@ -26,7 +26,7 @@ jobs:
             yum update && yum upgrade -y
             
             # Install dependencies
-            yum install docker.io -y
+            yum install docker -y
             
             # Enabling docker
             systemctl start docker
