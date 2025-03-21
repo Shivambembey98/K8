@@ -1,4 +1,4 @@
-name: Deploy K8 cluster on AWS
+name: Deploy K8 cluster on AWS master node
 
 on:
   workflow_dispatch:
